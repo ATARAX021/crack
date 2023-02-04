@@ -1,3 +1,6 @@
+# Udah Dikasih Free Jangan Di Prem in Kocak
+# Minimal Kalo Recode Ngetik Sendiri Jangan Copas
+
 import requests as r, re, json, sys, random
 from bs4 import BeautifulSoup as bs
 from requests.exceptions import ConnectionError
