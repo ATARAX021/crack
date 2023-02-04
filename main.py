@@ -1,12 +1,10 @@
 import requests as r, re, json, sys, random
 from bs4 import BeautifulSoup as bs
-from concurrent.futures import ThreadPoolExecutor
 from requests.exceptions import ConnectionError
 from os import system
 from time import sleep
 
 user_data = []
-thread = ThreadPoolExecutor(max_workers=600)
 ua = open('.ua','r').read().replace('\n','')
 def o(con):
     open('t.html','w').write(str(con))
